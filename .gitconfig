@@ -2,7 +2,7 @@
 	name = Julius Surya
 	email = julius.taeng@gmail.com
 [core]
-	editor = nvim
+	editor = vim
 [alias]
 	stat = status
 	cm = commit -m
