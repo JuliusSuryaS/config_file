@@ -1,0 +1,15 @@
+[user]
+	name = Julius Surya
+	email = julius.taeng@gmail.com
+[core]
+	editor = nvim
+[alias]
+	stat = status
+	cm = commit -m
+	co = checkout
+	global-edit = config --global --edit
+	br = branch
+	new-br = checkout -b
+	log-one = log --pretty=oneline
+	unstage = rm --cached
+	log-vis = log --oneline --decorate --graphuser]
