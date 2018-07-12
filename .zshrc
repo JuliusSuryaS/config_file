@@ -100,3 +100,4 @@ alias srzsh="source ~/.zshrc"
 # Export path Miniconda
 export PATH="/home/juliussurya/miniconda2/bin:$PATH"
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+${LD_LIBRARY_PATH}:}/usr/local/cuda/extras/CUPTI/lib64
+export PATH="/home/juliussurya/program/blender/blender_279b_64:$PATH"
