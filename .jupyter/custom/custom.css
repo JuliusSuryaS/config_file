@@ -140,13 +140,14 @@ body .notebook-app {
 
 #notebook {
     padding-top: 0px;
-    font-family: "cmu-text", "Times New Roman", serif;
-    font-size : 1.05rem !important;
+    /*font-family: "cmu-text", "Times New Roman", serif;
+     */
+    font-size : 0.9 rem !important;
 
 }
 
 .container {
-	width: 940px;
+	width: 1080px;
 }
 #site {
 	overflow: inherit;
@@ -174,15 +175,16 @@ kbd,
 pre,
 samp {
     font-family: 'sf-mono', 'Menlo', 'Courier New', monospace !important;
-    font-size: 0.9rem !important;
+    font-size: 0.9 rem !important;
 }
 
 h1 {
-	font-family:  "cmu-text", "Times New Roman", serif !important;
-    font-size: 2.6rem !important;
-    font-weight: bold 300 !important;
+	/*font-family:  "cmu-text", "Times New Roman", serif !important;
+     
+    font-size: 2.4rem !important;
+    font-weight: bold !important;
     color: #000000 !important;
-    /* letter-spacing: 3px !important; */
+    letter-spacing: 3px !important; 
     text-transform: normal !important;
     /*text-align: center !important;*/
     /*padding-top:  3rem;
@@ -191,15 +193,18 @@ h1 {
 }
 
 h2 {
+    /*
 	font-family:  "cmu-text", "Times New Roman", serif !important;
     font-size: 2.25rem !important;
     font-weight: bold !important;
     color: #000000 !important;
     text-transform: none !important;
     margin: 1rem 0 0.75rem !important;
+    */
 }
 
 h3 {
+    /*
 	font-family:  "cmu-text", "Times New Roman", serif !important;
     font-size: 2.125rem !important;
     font-weight: normal !important;
@@ -207,23 +212,27 @@ h3 {
     color: #000000 !important;
     display: block !important;
     margin: 0.9rem 0 0.75rem !important;
+    */
 }
 
 h4 {
-	font-style: italic;
-	text-decoration: underline;
+	/*font-style: italic;
+	text-decoration: underline;*/
 }
 h4,
 h5,
 h6 {
+    /*
 	font-family:  "cmu-text", "Times New Roman", serif !important;
     font-size: 1rem !important;
     font-weight: 500 !important;
     display: block !important;
     color: #000000;
     margin: 0.5rem 0 0.25rem !important;
+    */
 
 }
+
 
 .prompt {
     font-family: 'sf-mono', 'Menlo', 'Courier New', monospace !important;
@@ -248,7 +257,7 @@ div#header-container {
 div#notebook {
     border-top: none;
     font-size: 1rem;
-    background-color : #1d1d33;
+    background-color : /*#1d1d33*/ #D3D3D3;
 }
 .kernel_idle_icon:before {
 	color: #D14187;
@@ -285,8 +294,8 @@ div#site a{
 
 
 div#header {
-    background-color : white;
-    box-shadow : 1px 1px 10px #ff4274 !important;
+    background-color :  white;
+    /*box-shadow : 1px 1px 10px #ff4274 !important;*/
 }
 
 /*Markdown color and code bracket*/
@@ -296,21 +305,21 @@ div#header {
 
 /*Notebook background -> for input and output*/
 div#notebook-container{
-    background-color : white;
+    background-color white ;
     padding-top : 2%;
     padding-right : 3%;
-    box-shadow : 1px 1px 8px #ff4274;
+    box-shadow : 1px 1px 8px black /*#ff4274*/;
 
 }
 
 /*Input container*/
 div.CodeMirror-lines{
-    background-color : #1d1d33;
+    background-color : /*#1d1d33*/ #242424;
 }
 
 /*Line number background*/
 div.CodeMirror-gutter {
-    background-color : #34345e;
+    background-color : /*#34345e*/ #0C0C0C;
 }
 
 /* Jupyter cell is in normal mode when code mirror */
@@ -342,7 +351,7 @@ div.cell.selected div.input::before {
 }
 .selected .input_prompt{
     color : red;
-    border-left : dotted 4px #1d1d33;
+    border-left : solid 4px red;
 }
 
 
@@ -370,7 +379,7 @@ div.input_area {
     border-radius: 0px;
     border: none;
     padding: 0px 5px;
-    background-color : #1d1d33;
+    background-color : /*#1d1d33*/ #838080 ;
 }
 
 div.output_area pre {

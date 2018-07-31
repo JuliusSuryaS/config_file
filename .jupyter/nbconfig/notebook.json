@@ -1,13 +1,13 @@
 {
+  "Cell": {
+    "cm_config": {
+      "lineNumbers": true
+    }
+  },
   "Notebook": {
     "Header": true
   },
   "load_extensions": {
     "vim_binding/vim_binding": true
-  },
-  "Cell": {
-    "cm_config": {
-      "lineNumbers": true
-    }
   }
 }
