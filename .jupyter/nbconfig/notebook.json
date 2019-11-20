@@ -1,13 +1,36 @@
 {
+  "load_extensions": {
+    "vim_binding/vim_binding": true,
+    "hide_input/main": true,
+    "highlighter/highlighter": true,
+    "highlight_selected_word/main": true,
+    "execute_time/ExecuteTime": true,
+    "code_prettify/code_prettify": true,
+    "collapsible_headings/main": true,
+    "codefolding/main": true
+  },
+  "highlight_selected_word": {
+    "enable_on_load": false
+  },
+  "Notebook": {
+    "Header": true
+  },
   "Cell": {
     "cm_config": {
       "lineNumbers": true
     }
   },
-  "Notebook": {
-    "Header": true
-  },
-  "load_extensions": {
-    "vim_binding/vim_binding": true
+  "keys": {
+    "command": {
+      "bind": {
+        "ctrl-shift-a-enter": "jupyter-notebook:run-all-cells-above",
+        "ctrl-a-enter": "jupyter-notebook:run-all-cells-above",
+        "shift-ctrl-h": "auto:hide_code:toggle_all",
+        "ctrl-shift-1": "jupyter-notebook:run-all-cells-above",
+        "ctrl-shift-0": "jupyter-notebook:confirm-restart-kernel-and-clear-output",
+        "shift-a-enter": "jupyter-notebook:run-all-cells-above",
+        "ctrl-shift--": "jupyter-notebook:restart-kernel-and-run-all-cells"
+      }
+    }
   }
 }

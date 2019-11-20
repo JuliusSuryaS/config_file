@@ -2,7 +2,7 @@
 	name = Julius Surya
 	email = julius.taeng@gmail.com
 [core]
-	editor = vim
+	editor = kate
 [alias]
 	stat = status
 	cm = commit -m

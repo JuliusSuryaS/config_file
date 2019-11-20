@@ -103,3 +103,10 @@ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+${LD_LIBRARY_PATH}:}/usr/local/cuda/ex
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64
 export PATH="/home/juliussurya/program/blender/blender_279b_64:$PATH"
 export PATH="/home/juliussurya/program/cvkit/build/tools:$PATH"
+export PATH="/home/juliussurya/program/panorama:$PATH"
+export PATH="~/opt/android-studio/bin:$PATH"
+export PATH=$PATH:$HOME"/Android/Sdk/platform-tools"
+export CUDNN_PATH="/usr/local/cuda-9.0/lib64/libcudnn.so.7"
+
+
+. /home/juliussurya/torch/install/bin/torch-activate

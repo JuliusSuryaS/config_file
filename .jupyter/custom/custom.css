@@ -135,7 +135,13 @@ body .notebook-app {
 }
 
 #header {
-    box-shadow: none !important;
+    box-shadow: 10px solid black !important;
+}
+
+body > #header{
+    width: 100%;
+    position: fixed ;
+    margin-bottom : 50px;
 }
 
 #notebook {
@@ -153,6 +159,7 @@ body .notebook-app {
 	overflow: inherit;
 }
 #notebook-container {
+    margin-top : 130px;
     box-shadow: none;
     -webkit-box-shadow: none;
     padding: 0px;
@@ -255,7 +262,7 @@ div#header-container {
 }
 
 div#notebook {
-    border-top: none;
+    #border-top: none;
     font-size: 1rem;
     background-color : /*#1d1d33*/ #D3D3D3;
 }
@@ -353,6 +360,29 @@ div.cell.selected div.input::before {
     color : red;
     border-left : solid 4px red;
 }
+
+div.timing_area{
+    color : white;
+    background-color: black;
+    
+}
+
+/*Hide Code extension*/
+div.celltoolbar{
+    color: black;
+    border: none;
+    background-color : white;
+}
+
+div.inner_cell{
+    border: none;
+}
+
+
+div.text_cell_render{
+    border: none !important;
+}
+
 
 
 
